@@ -1,0 +1,28 @@
+.card{
+    &__item{
+        min-height: 100vh;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    &__title{
+        font-size: 22px;
+        background-color: rgba(255, 255, 255, 0.612);
+        margin-bottom: 20px;
+        width: 450px;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    &__img {
+        width: calc(100% + 40px);
+        transform: translateX(-20px);
+        height: 240px;
+        object-fit: contain;
+        margin-bottom: 20px;
+    }
+}
